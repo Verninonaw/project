@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin: 18px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+
+}
+
+#cover {
+    background-image: url(src/cover.png);
+    height: 763px;
+    display: flex;
+    align-items: center;
+}
+
+.cover-content {
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
+a, h1, p, button, h2, h3 {
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.slogan {
+    font-size: 24px;
+}
+
+button {
+    width: 289px;
+    height: 57px;
+    border-radius: 25px;
+    background-color: red;
+    font-size: 24px;
+    color: white;
+    border: 0;
+}
+
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+button:hover {
+    background-color: rgb(189, 0, 0);
+}
+
+.about-us-content {
+    display: flex;
+    padding: 100px;
+    ;
+}
+
+.img-aboutUs {
+    width: 462px;
+    height: 616px;
+}
+
+.text-aboutUs {
+    padding: 100px 50px;
+    color: white;
+}
+
+h2 {
+    padding: 0px 50px;
+    color: white;
+}
+
+#about-us {
+    background-color: rgb(0, 0, 0);
+}
+
+#catalog {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    width: 365px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card-text {
+    margin-bottom: 10px
+}
+
+#form {
+    height: 626px;
+    background-color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+input {
+    padding: 10px;
+    border: 2px gray;
+    border-radius: 30px;
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    width: 361px;
+    height: 58px;
+    padding-left: 20px;
+}
+
+.btn {
+    width: 363px;
+    height: 57px;
+    border-radius: 25px;
+    background-color: red;
+    font-size: 24px;
+    color: white;;
+    font-family: "Stalinist One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px;
+}
+
+.form-slogan {
+    margin: 30px 0px 20px 0;
+}
+
+.card-button {
+    
+}
