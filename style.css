@@ -202,7 +202,7 @@ input {
     background-color: rgb(49, 49, 49);
     color: white;
     display: flex;
-    align-items: column;
+    justify-content: space-between;
     
 }
 
@@ -213,8 +213,15 @@ input {
 #contact img {
     position: relative;
     right: 0;
+    width: 506px;
+    height: 372px;
+    padding-bottom: 30px;
 }
 
 .contact-map {
 
+}
+.contact-main{
+    display: flex;
+    justify-content: space-between;
 }
