@@ -104,6 +104,11 @@ button:hover {
     width: 365px;
 }
 
+.card img {
+    width: 364px;
+    height: 489px;
+}
+
 .card-header {
     display: flex;
     align-items: center;
@@ -218,10 +223,17 @@ input {
     padding-bottom: 30px;
 }
 
-.contact-map {
-
-}
 .contact-main{
     display: flex;
     justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer img {
+    width: 50px;
+    height: 50px;
 }
