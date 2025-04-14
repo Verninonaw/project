@@ -6,6 +6,15 @@
     margin: 0 auto;
 }
 
+.header { 
+    background-color: white;
+}
+
+body {
+    background-color: black;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +30,7 @@ a {
 }
 
 #cover {
-    background-image: url(src/cover.png);
+    background-image: url(src/background.png);
     height: 763px;
     display: flex;
     align-items: center;
