@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 
 .container {
@@ -29,6 +30,12 @@ a {
 
 }
 
+p {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
 #cover {
     background-image: url(src/background.png);
     height: 763px;
@@ -42,12 +49,16 @@ a {
 
 @import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
 
+h1 {
+    font-size: 40px;
+}
+
 a,
 h1,
-p,
 button,
 h2,
 h3,
+h4,
 input {
     font-family: "Stalinist One", sans-serif;
     font-weight: 400;
@@ -58,7 +69,7 @@ input {
     font-size: 24px;
 }
 
-button {
+button, .btn {
     width: 289px;
     height: 57px;
     border-radius: 25px;
@@ -81,7 +92,6 @@ button:hover {
 .about-us-content {
     display: flex;
     padding: 100px;
-    ;
 }
 
 .img-aboutUs {
@@ -92,11 +102,17 @@ button:hover {
 .text-aboutUs {
     padding: 100px 50px;
     color: white;
+
+}
+
+#about-us p {
+    font-size: 20px;
 }
 
 #about-us h2 {
     padding: 0px 50px;
     color: white;
+    font-size: 40px;
 }
 
 #about-us {
@@ -107,6 +123,10 @@ button:hover {
     background-color: black;
     color: white;
     padding-bottom: 25px;
+}
+
+#catalog h2 {
+    font-size: 40px;
 }
 
 .card {
@@ -164,19 +184,7 @@ input {
     padding-left: 20px;
 }
 
-.btn {
-    width: 363px;
-    height: 57px;
-    border-radius: 25px;
-    background-color: red;
-    font-size: 24px;
-    color: white;
-    ;
-    font-family: "Stalinist One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 25px;
-}
+    
 
 .btn:hover {
     background-color: rgb(189, 0, 0);
@@ -189,12 +197,16 @@ input {
 
 #blog {
     padding-top: 35px;
-    background-color: black;
     padding-bottom: 35px;
 }
 
-#blog p,h2, h3 {
-    color: white;
+#blog h2 {
+font-size: 40px;
+}
+
+#blog p, h2, h3 {
+    color: rgb(255, 255, 255);
+    padding: 10px 0px 10px 0px; 
 }
 
 .blog-cards {
@@ -260,5 +272,5 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
